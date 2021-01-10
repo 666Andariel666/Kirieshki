@@ -1,0 +1,276 @@
+@import url('../Fonts/stylesheet.css');
+/* font-family: 'Roboto-Regular'; */
+/* font-family: 'Roboto-Light'; */
+/* font-family: 'Roboto-Bold'; */
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* ==============================================header============================================= */
+.header{
+    margin: 0 auto;
+    min-height: 700px;
+    min-width: 1920px;
+    width: 100%;
+    background: url(../img/header_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.header__content{
+    
+}
+.header__h2{
+    color: #70869d;
+    font-size: 50px;
+    font-family: 'Roboto-Regular';
+}
+.header__title{
+    color: #404040;
+    font-size: 70px;
+    font-family: 'Roboto-Bold';
+    
+}
+.header__content h1{
+    margin-left: 400px;
+    
+
+}
+.header__content h2{
+    margin-left: 400px;
+    
+}
+/* ==============================================/header============================================= */
+/* =====================MAIN =====================*/
+.main{
+    padding-top: 100px;
+    
+}
+.main__content{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+.card_block_top{
+    display: flex;
+    align-content: center;
+    margin-bottom: 100px;
+}
+.card__1{
+    min-width: 580px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.308);
+
+}
+.card__2{
+    margin-left: 10px;
+    min-width: 580px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.308);
+    
+}
+.card1__content{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    /* background-color: #aaa; */
+    
+
+}
+.card__img{
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.438);
+}
+.card_h2{
+    position: absolute;
+    margin-left: 285px;
+    margin-bottom: 270px;
+    margin-top: 110px;
+    display: flex;
+    width: max-content;
+    height: 30px;
+    font-family: 'Roboto-Bold';
+    color: #1f3750;
+    font-weight: bold;
+    font-size: 18px;
+    /* background-color: lawngreen; */
+}
+.card_description{
+    position: absolute;
+    margin-left: 285px;
+    margin-top: 140px;
+    margin-bottom: 170px;
+    display: flex;
+    align-items: center;
+    max-width: 260px;
+    font-family: 'Roboto-Light';
+    color: #70869d;
+    font-size: 16px;
+    font-weight: 500;
+    /* background-color: lightcoral; */
+    
+    
+    
+}
+.card_buy{
+    position: absolute;
+    margin-left: 285px;
+    margin-top: 230px;
+    margin-bottom: 90px;
+    padding: 12.5px 60px 12.5px 60px;
+    color: #70869d;
+    background-color: #f2f2f2;
+    transition: 0.5s;
+    font-family: 'Roboto-Light';
+    font-size: 16px;
+    box-shadow: lightslategrey 0 0 10px 2px;
+}
+.card_buy:hover{
+    background-color: #0092b6;
+    color: #ffffff;
+    box-shadow:lightslategrey 0 0 10px 5px;
+
+}
+.card__block_bottom{
+    display: flex;
+    align-content: center;
+    padding-bottom: 100px;
+}
+.fruits{
+    margin: 0 auto;
+    width: 1110px;
+    height: 480px;
+    /* background-color: limegreen; */
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    background-color: #f3f9ff;
+    margin-bottom: 50px;
+
+
+}
+.fruits__content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+.fruits__h3{
+    height: 45px;
+    width: 200px;
+    color: #1f3750;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Roboto-Bold';
+}
+.fruits__img{
+    /* width: max-content; */
+    margin-bottom: 28px;
+}
+.fruits__descr{
+    max-width: 200px;
+    font-family: 'Roboto-Light';
+    color: #70869d;
+    font-size: 16px;
+    text-align: start;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.fruits__more{
+    text-decoration: underline;
+    text-underline-position: above;
+    width: max-content;
+    color: #1f3750;
+    font-family: 'Roboto-Bold';
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.nav{
+    width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+
+}
+.hren__ego_znaet_zachem_etot_class_nujen{
+    nichego ne ponyal: No ochen interesno;
+}
+.nav__heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto-Bold';
+    color: #1f3750;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+.nav__list_left{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    line-height: 30px;
+}
+.nav__list_right{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    margin-left: 550px;
+    top: 2022px;
+    line-height: 30px;
+
+    width: max-content;
+}
+.nav__list_link{
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    color: #70869d;
+    font-weight: 600;
+    transition: 0.7s;
+}
+.nav__list_link:hover{
+    color: #0092b6;
+}
+/* =====================/MAIN =====================*/
+/* =====================footer===================== */
+.footer{
+    margin: 0 auto;
+    background-color: #f3f9ff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+.footer__content{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1110px;
+    
+}
+.footer__logo{
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    color: #444444;
+}
+.footer__nav{
+    nahren on voobshe zdes nujen;
+}
+.footer__nav_list_link{
+ margin-right: 15px;
+ font-family: 'Roboto-Regular';
+ font-size: 14px;
+ color: #6d6d6d;
+ font-weight: 500;
+}
+/* =====================/footer===================== */
